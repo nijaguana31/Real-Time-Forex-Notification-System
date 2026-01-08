@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignalR Real-Time Price Test</title>
+
+    <!-- SignalR Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@8.0.0/dist/browser/signalr.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .log {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            height: 300px;
+            overflow-y: auto;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+<h2>SignalR Real-Time Price Updates</h2>
+<p>Open browser console to see detailed logs.</p>
+
+<button onclick="connect()">Connect & Subscribe</button>
+
+<div class="log" id="log"></div>
+
+<script>
+    // 🔐 Paste your JWT token here
+    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6ImI3NmVmYjhiLTFiZWQtNGZlOS1iNWFlLWNlM2E3ZmZlN2EyOCIsImV4cCI6MTc2Nzk1NTEzMiwiaXNzIjoiRm9yZXhBdXRoU2VydmVyIiwiYXVkIjoiRm9yZXhDbGllbnRzIn0.WhrxYvlGc9cCnuHYAU663w1KRiH0JagAmkNWG7n_xII";
+
+    // 🔁 Update if your API runs on a different port
+    const hubUrl = "https://localhost:44307/forexHub";
+
+    let connection;
+
+    function log(message) {
+        const div = document.getElementById("log");
+        div.innerHTML += message + "<br/>";
+        div.scrollTop = div.scrollHeight;
+        console.log(message);
+    }
+
+    async function connect() {
+        connection = new signalR.HubConnectionBuilder()
+            .withUrl(hubUrl + "?access_token=" + token)
+            .configureLogging(signalR.LogLevel.Information)
+            .build();
+
+        // Listen for price updates
+        connection.on("PriceUpdate", data => {
+            log(
+                `PRICE UPDATE → ${data.symbol} | ` +
+                `Price: ${data.price} | ` +
+                `Bid: ${data.bid} | ` +
+                `Ask: ${data.ask} | ` +
+                `Time: ${data.timestampUtc}`
+            );
+        });
+
+        try {
+            await connection.start();
+            log("✅ Connected to SignalR hub");
+
+            // Subscribe to valid Finnhub symbols
+            await connection.invoke("Subscribe", "AAPL");
+            await connection.invoke("Subscribe", "MSFT");
+            await connection.invoke("Subscribe", "TSLA");
+
+            log("📡 Subscribed to AAPL, MSFT, TSLA");
+        }
+        catch (err) {
+            log("❌ Error: " + err);
+        }
+    }
+</script>
+
+</body>
+</html>

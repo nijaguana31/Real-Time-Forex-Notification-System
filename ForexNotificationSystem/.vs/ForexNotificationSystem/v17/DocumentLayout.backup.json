@@ -1,0 +1,487 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.infrastructure\\repositories\\pricetickrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|solutionrelative:forex.infrastructure\\repositories\\pricetickrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.infrastructure\\repositories\\subscriptionauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|solutionrelative:forex.infrastructure\\repositories\\subscriptionauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.infrastructure\\persistence\\dbcontext\\forexdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|solutionrelative:forex.infrastructure\\persistence\\dbcontext\\forexdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE3FBBA-A951-425E-80FC-E9F899AC0622}|Forex.API\\Forex.API.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.api\\hubs\\forexhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE3FBBA-A951-425E-80FC-E9F899AC0622}|Forex.API\\Forex.API.csproj|solutionrelative:forex.api\\hubs\\forexhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.application\\dtos\\pricetickdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|solutionrelative:forex.application\\dtos\\pricetickdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.infrastructure\\backgroundservices\\pricebroadcastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|solutionrelative:forex.infrastructure\\backgroundservices\\pricebroadcastservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.infrastructure\\backgroundservices\\forexpricefeedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|solutionrelative:forex.infrastructure\\backgroundservices\\forexpricefeedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.application\\interfaces\\ifinnhubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|solutionrelative:forex.application\\interfaces\\ifinnhubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.infrastructure\\services\\finnhubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|solutionrelative:forex.infrastructure\\services\\finnhubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE3FBBA-A951-425E-80FC-E9F899AC0622}|Forex.API\\Forex.API.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE3FBBA-A951-425E-80FC-E9F899AC0622}|Forex.API\\Forex.API.csproj|solutionrelative:forex.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE3FBBA-A951-425E-80FC-E9F899AC0622}|Forex.API\\Forex.API.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2DE3FBBA-A951-425E-80FC-E9F899AC0622}|Forex.API\\Forex.API.csproj|solutionrelative:forex.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE3FBBA-A951-425E-80FC-E9F899AC0622}|Forex.API\\Forex.API.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE3FBBA-A951-425E-80FC-E9F899AC0622}|Forex.API\\Forex.API.csproj|solutionrelative:forex.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.application\\commands\\unsubscribesymbol\\unsubscribesymbolhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|solutionrelative:forex.application\\commands\\unsubscribesymbol\\unsubscribesymbolhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.application\\queries\\getlatestprices\\getlatestpriceshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|solutionrelative:forex.application\\queries\\getlatestprices\\getlatestpriceshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.application\\commands\\subscribesymbol\\subscribesymbolhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|solutionrelative:forex.application\\commands\\subscribesymbol\\subscribesymbolhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.infrastructure\\migrations\\20260106180853_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|solutionrelative:forex.infrastructure\\migrations\\20260106180853_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.infrastructure\\persistence\\configurations\\subscriptionauditconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|solutionrelative:forex.infrastructure\\persistence\\configurations\\subscriptionauditconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.infrastructure\\persistence\\configurations\\pricetickconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E81FCCB-2EA1-49A7-8E48-ED1A6A6C6E83}|Forex.Infrastructure\\Forex.Infrastructure.csproj|solutionrelative:forex.infrastructure\\persistence\\configurations\\pricetickconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.application\\queries\\getlatestprices\\getlatestpricesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|solutionrelative:forex.application\\queries\\getlatestprices\\getlatestpricesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.application\\commands\\unsubscribesymbol\\unsubscribesymbolcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|solutionrelative:forex.application\\commands\\unsubscribesymbol\\unsubscribesymbolcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.application\\commands\\subscribesymbol\\subscribesymbolcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|solutionrelative:forex.application\\commands\\subscribesymbol\\subscribesymbolcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.application\\interfaces\\isubscriptionauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|solutionrelative:forex.application\\interfaces\\isubscriptionauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.application\\interfaces\\ipricetickrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3190B261-BE08-46B4-9430-80586499D0F1}|Forex.Application\\Forex.Application.csproj|solutionrelative:forex.application\\interfaces\\ipricetickrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C22CF-669C-4885-BAB6-B23BE5094B64}|Forex.Domain\\Forex.Domain.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.domain\\entities\\subscriptionaudit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C22CF-669C-4885-BAB6-B23BE5094B64}|Forex.Domain\\Forex.Domain.csproj|solutionrelative:forex.domain\\entities\\subscriptionaudit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C22CF-669C-4885-BAB6-B23BE5094B64}|Forex.Domain\\Forex.Domain.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.domain\\entities\\pricetick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C22CF-669C-4885-BAB6-B23BE5094B64}|Forex.Domain\\Forex.Domain.csproj|solutionrelative:forex.domain\\entities\\pricetick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D78C22CF-669C-4885-BAB6-B23BE5094B64}|Forex.Domain\\Forex.Domain.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.domain\\enums\\subscriptionaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D78C22CF-669C-4885-BAB6-B23BE5094B64}|Forex.Domain\\Forex.Domain.csproj|solutionrelative:forex.domain\\enums\\subscriptionaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC79676C-33CD-46E7-ADEE-DBFC77DA2FE5}|Forex.Tests\\Forex.Tests.csproj|e:\\projects\\assessment real-time forex notifications\\real-time-forex-notifications\\forexnotificationsystem\\forex.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC79676C-33CD-46E7-ADEE-DBFC77DA2FE5}|Forex.Tests\\Forex.Tests.csproj|solutionrelative:forex.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PriceBroadcastService.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\BackgroundServices\\PriceBroadcastService.cs",
+              "RelativeDocumentMoniker": "Forex.Infrastructure\\BackgroundServices\\PriceBroadcastService.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\BackgroundServices\\PriceBroadcastService.cs",
+              "RelativeToolTip": "Forex.Infrastructure\\BackgroundServices\\PriceBroadcastService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowEwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T10:40:27.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ForexPriceFeedService.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\BackgroundServices\\ForexPriceFeedService.cs",
+              "RelativeDocumentMoniker": "Forex.Infrastructure\\BackgroundServices\\ForexPriceFeedService.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\BackgroundServices\\ForexPriceFeedService.cs",
+              "RelativeToolTip": "Forex.Infrastructure\\BackgroundServices\\ForexPriceFeedService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T10:36:37.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FinnhubClient.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Services\\FinnhubClient.cs",
+              "RelativeDocumentMoniker": "Forex.Infrastructure\\Services\\FinnhubClient.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Services\\FinnhubClient.cs",
+              "RelativeToolTip": "Forex.Infrastructure\\Services\\FinnhubClient.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAABkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T10:34:58.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IFinnhubClient.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Interfaces\\IFinnhubClient.cs",
+              "RelativeDocumentMoniker": "Forex.Application\\Interfaces\\IFinnhubClient.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Interfaces\\IFinnhubClient.cs",
+              "RelativeToolTip": "Forex.Application\\Interfaces\\IFinnhubClient.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T10:32:33.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Forex.API\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Forex.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwB4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T10:10:20.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForexHub.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.API\\Hubs\\ForexHub.cs",
+              "RelativeDocumentMoniker": "Forex.API\\Hubs\\ForexHub.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.API\\Hubs\\ForexHub.cs",
+              "RelativeToolTip": "Forex.API\\Hubs\\ForexHub.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwB0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T08:41:11.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetLatestPricesHandler.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Queries\\GetLatestPrices\\GetLatestPricesHandler.cs",
+              "RelativeDocumentMoniker": "Forex.Application\\Queries\\GetLatestPrices\\GetLatestPricesHandler.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Queries\\GetLatestPrices\\GetLatestPricesHandler.cs",
+              "RelativeToolTip": "Forex.Application\\Queries\\GetLatestPrices\\GetLatestPricesHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIBJwB0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T08:31:31.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnsubscribeSymbolHandler.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Commands\\UnsubscribeSymbol\\UnsubscribeSymbolHandler.cs",
+              "RelativeDocumentMoniker": "Forex.Application\\Commands\\UnsubscribeSymbol\\UnsubscribeSymbolHandler.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Commands\\UnsubscribeSymbol\\UnsubscribeSymbolHandler.cs",
+              "RelativeToolTip": "Forex.Application\\Commands\\UnsubscribeSymbol\\UnsubscribeSymbolHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T08:29:22.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SubscribeSymbolHandler.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Commands\\SubscribeSymbol\\SubscribeSymbolHandler.cs",
+              "RelativeDocumentMoniker": "Forex.Application\\Commands\\SubscribeSymbol\\SubscribeSymbolHandler.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Commands\\SubscribeSymbol\\SubscribeSymbolHandler.cs",
+              "RelativeToolTip": "Forex.Application\\Commands\\SubscribeSymbol\\SubscribeSymbolHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T08:26:35.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260106180853_InitialCreate.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Migrations\\20260106180853_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Forex.Infrastructure\\Migrations\\20260106180853_InitialCreate.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Migrations\\20260106180853_InitialCreate.cs",
+              "RelativeToolTip": "Forex.Infrastructure\\Migrations\\20260106180853_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T18:08:55.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubscriptionAuditRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Repositories\\SubscriptionAuditRepository.cs",
+              "RelativeDocumentMoniker": "Forex.Infrastructure\\Repositories\\SubscriptionAuditRepository.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Repositories\\SubscriptionAuditRepository.cs",
+              "RelativeToolTip": "Forex.Infrastructure\\Repositories\\SubscriptionAuditRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:52:52.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.API\\Program.cs",
+              "RelativeDocumentMoniker": "Forex.API\\Program.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.API\\Program.cs",
+              "RelativeToolTip": "Forex.API\\Program.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAYwI4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:49:46.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Forex.API\\appsettings.json",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.API\\appsettings.json",
+              "RelativeToolTip": "Forex.API\\appsettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAIBJwBMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-06T17:48:23.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PriceTickRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Repositories\\PriceTickRepository.cs",
+              "RelativeDocumentMoniker": "Forex.Infrastructure\\Repositories\\PriceTickRepository.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Repositories\\PriceTickRepository.cs",
+              "RelativeToolTip": "Forex.Infrastructure\\Repositories\\PriceTickRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:46:10.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SubscriptionAuditConfiguration.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Persistence\\Configurations\\SubscriptionAuditConfiguration.cs",
+              "RelativeDocumentMoniker": "Forex.Infrastructure\\Persistence\\Configurations\\SubscriptionAuditConfiguration.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Persistence\\Configurations\\SubscriptionAuditConfiguration.cs",
+              "RelativeToolTip": "Forex.Infrastructure\\Persistence\\Configurations\\SubscriptionAuditConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:45:19.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PriceTickConfiguration.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Persistence\\Configurations\\PriceTickConfiguration.cs",
+              "RelativeDocumentMoniker": "Forex.Infrastructure\\Persistence\\Configurations\\PriceTickConfiguration.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Persistence\\Configurations\\PriceTickConfiguration.cs",
+              "RelativeToolTip": "Forex.Infrastructure\\Persistence\\Configurations\\PriceTickConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:43:36.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForexDbContext.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Persistence\\DbContext\\ForexDbContext.cs",
+              "RelativeDocumentMoniker": "Forex.Infrastructure\\Persistence\\DbContext\\ForexDbContext.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Infrastructure\\Persistence\\DbContext\\ForexDbContext.cs",
+              "RelativeToolTip": "Forex.Infrastructure\\Persistence\\DbContext\\ForexDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:42:42.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetLatestPricesQuery.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Queries\\GetLatestPrices\\GetLatestPricesQuery.cs",
+              "RelativeDocumentMoniker": "Forex.Application\\Queries\\GetLatestPrices\\GetLatestPricesQuery.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Queries\\GetLatestPrices\\GetLatestPricesQuery.cs",
+              "RelativeToolTip": "Forex.Application\\Queries\\GetLatestPrices\\GetLatestPricesQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:34:27.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UnsubscribeSymbolCommand.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Commands\\UnsubscribeSymbol\\UnsubscribeSymbolCommand.cs",
+              "RelativeDocumentMoniker": "Forex.Application\\Commands\\UnsubscribeSymbol\\UnsubscribeSymbolCommand.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Commands\\UnsubscribeSymbol\\UnsubscribeSymbolCommand.cs",
+              "RelativeToolTip": "Forex.Application\\Commands\\UnsubscribeSymbol\\UnsubscribeSymbolCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:33:25.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SubscribeSymbolCommand.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Commands\\SubscribeSymbol\\SubscribeSymbolCommand.cs",
+              "RelativeDocumentMoniker": "Forex.Application\\Commands\\SubscribeSymbol\\SubscribeSymbolCommand.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Commands\\SubscribeSymbol\\SubscribeSymbolCommand.cs",
+              "RelativeToolTip": "Forex.Application\\Commands\\SubscribeSymbol\\SubscribeSymbolCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:32:34.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ISubscriptionAuditRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Interfaces\\ISubscriptionAuditRepository.cs",
+              "RelativeDocumentMoniker": "Forex.Application\\Interfaces\\ISubscriptionAuditRepository.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Interfaces\\ISubscriptionAuditRepository.cs",
+              "RelativeToolTip": "Forex.Application\\Interfaces\\ISubscriptionAuditRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:30:22.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPriceTickRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Interfaces\\IPriceTickRepository.cs",
+              "RelativeDocumentMoniker": "Forex.Application\\Interfaces\\IPriceTickRepository.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Interfaces\\IPriceTickRepository.cs",
+              "RelativeToolTip": "Forex.Application\\Interfaces\\IPriceTickRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:29:44.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PriceTickDto.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\DTOs\\PriceTickDto.cs",
+              "RelativeDocumentMoniker": "Forex.Application\\DTOs\\PriceTickDto.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\DTOs\\PriceTickDto.cs",
+              "RelativeToolTip": "Forex.Application\\DTOs\\PriceTickDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:28:46.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SubscriptionAudit.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Domain\\Entities\\SubscriptionAudit.cs",
+              "RelativeDocumentMoniker": "Forex.Domain\\Entities\\SubscriptionAudit.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Domain\\Entities\\SubscriptionAudit.cs",
+              "RelativeToolTip": "Forex.Domain\\Entities\\SubscriptionAudit.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:24:24.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PriceTick.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Domain\\Entities\\PriceTick.cs",
+              "RelativeDocumentMoniker": "Forex.Domain\\Entities\\PriceTick.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Domain\\Entities\\PriceTick.cs",
+              "RelativeToolTip": "Forex.Domain\\Entities\\PriceTick.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBQwAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:21:00.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SubscriptionAction.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Domain\\Enums\\SubscriptionAction.cs",
+              "RelativeDocumentMoniker": "Forex.Domain\\Enums\\SubscriptionAction.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Domain\\Enums\\SubscriptionAction.cs",
+              "RelativeToolTip": "Forex.Domain\\Enums\\SubscriptionAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T17:20:08.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Forex.Tests\\UnitTest1.cs",
+              "ToolTip": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "Forex.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T16:52:21.975Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

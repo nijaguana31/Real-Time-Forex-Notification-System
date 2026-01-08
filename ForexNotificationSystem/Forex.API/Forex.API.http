@@ -1,0 +1,6 @@
+@Forex.API_HostAddress = http://localhost:5010
+
+GET {{Forex.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

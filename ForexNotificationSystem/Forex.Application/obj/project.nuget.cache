@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "oKKDTSJZQKU=",
+  "success": true,
+  "projectFilePath": "E:\\Projects\\Assessment Real-Time Forex Notifications\\Real-Time-Forex-Notifications\\ForexNotificationSystem\\Forex.Application\\Forex.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nijaguna Tm\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\Nijaguna Tm\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Nijaguna Tm\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Nijaguna Tm\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
